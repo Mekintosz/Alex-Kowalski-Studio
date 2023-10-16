@@ -16,7 +16,7 @@
 body {
     font-family: "Overlock";
     background: #d8cfc6;
-    color: white;
+    
     font-size: 1.2rem;
 }
 
@@ -41,19 +41,82 @@ body {
     padding: 5%;   
 }
 
-/* ----------------------------------FOOTER-------------------------------------- */
+.header-photo h1 {
+    font-family: "Gluten";
+    font-size: 3.5rem;
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
 
-/* .footer-card {
-    background-color: #837E7E;
-    padding: 1em;
+/* --------------ikons----------------- */
+.footer-icons {
+    padding-top: 40px;
+}
+
+.header-icons img,
+.footer-icons img {
+    height: 50px;
+}
+
+.footer-icons {
+    padding-top: 40px;
+}
+
+/* --------------------GALlERY--------------------- */
+.main-container {
     width: 90%;
-    max-width: 1600px;
     margin: 0 auto;
+}
+
+/* .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 35%));
+    gap: 50px;
 } */
 
+.project {
+    background-color: var(--second-color);
+    height: auto;
+    padding: 10px;
+    margin: 10px 0 10px;
+}
+
+.galery-image {
+    width: 100%;
+}
+
+.project-title {
+    display:flex;
+    align-items: center;
+    justify-content: stretch;
+    padding: 10px 0;
+}
+
+.project-title img {
+    height: 1.1em;
+    padding: 0 10px;
+    
+}
+.project-title h3 {
+    flex: 1 1 auto;
+}
+
+/* ----------------------------------FOOTER-------------------------------------- */
+
+.footer-card {
+    background-color: var(--first-color);
+    width: 100%;
+    margin: 0 auto;
+}
+
 .footer-card .photo {
-    float: left;
-    width: 65%;
+    width: 100%;
+}
+
+.footer-content {
+    padding: 5%;
 }
 
 /* .footer-container {
