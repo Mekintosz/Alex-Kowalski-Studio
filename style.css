@@ -1,63 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Overlock:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Overlock:wght@400;700&display=swap");
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 :root {
-    --main-color: #837E7E;
-    --background-color:  #d8cfc6;
-    --first-color: #27636e;
-    --second-color: #985B46;
+  --main-color: #837e7e;
+  --background-color: #d8cfc6;
+  --first-color: #27636e;
+  --second-color: #985b46;
 }
 
 body {
-    font-family: "Overlock";
-    background: #d8cfc6;
-    color: white;
-    font-size: 1.2rem;
+  font-family: "Overlock";
+  background: #d8cfc6;
+  color: white;
+  font-size: 1.2rem;
 }
 
 /* --------------------GALlERY--------------------- */
 .main-container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 35%));
-    gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 35%));
+  gap: 50px;
 }
 
 .project {
-    background-color: var(--second-color);
-    height: 300px;
-    padding: 10px;
+  background-color: var(--second-color);
+  height: 300px;
+  padding: 10px;
 }
 
 .project-title {
-    display:flex;
-    align-items: center;
-    justify-content: stretch;
-    padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  padding: 10px 0;
 }
 
 .project-title img {
-    height: 1.1em;
-    padding: 0 10px;
-    
+  height: 1.1em;
+  padding: 0 10px;
 }
 .project-title h3 {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 /* --------------------HEADER---------------------- */
 .bgshape {
-    background: linear-gradient(170deg, rgba(39, 99, 110, 0.95) 49%, rgba(255, 255, 255, 0) 50% );
-    width: 100vw;
+  background: linear-gradient(
+    170deg,
+    rgba(39, 99, 110, 0.95) 49%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  width: 100vw;
 }
 
 /* .header.container { 
@@ -72,77 +75,80 @@ body {
 } */
 
 .header-photo {
-    max-width: 90vw;
-    position: relative;
+  max-width: 90vw;
+  position: relative;
 }
 
 .header-picture {
-    max-width: 100%;   
+  max-width: 100%;
 }
 
 .header.card {
-    width: 100%;
-    padding: 5%;   
+  width: 100%;
+  padding: 5%;
 }
 
 .title {
-    font-family: "Gluten";
-    position: absolute;
-    bottom: 0.6rem;
-    left: 0.5em;
-    font-size: 14vw;
-    color: white;
-    z-index: 2;
+  font-family: "Gluten";
+  position: absolute;
+  bottom: 0.6rem;
+  left: 0.5em;
+  font-size: 14vw;
+  color: white;
+  z-index: 2;
 }
 
 .header-icons {
-    /* position: relative;
+  /* position: relative;
     bottom: 30px;
     left: 30px; */
-    float: right;
+  float: right;
 }
 
 /* --------------ikons----------------- */
 .footer-icons {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 .header-icons img,
 .footer-icons img {
-    height: 50px;
+  height: 50px;
 }
 
 .footer-icons {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 /* ----------------------------------FOOTER-------------------------------------- */
 .footer-card {
-    background-color: #837E7E;
-    padding: 1em;
-    width: 90%;
-    max-width: 1600px;
-    margin: 0 auto;
+  background-color: #837e7e;
+  padding: 1em;
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .footer-card .photo {
-    float: left;
-    width: 65%;
-    /* background-image: url(./asets/footer-horizontal2.jpg);
+  float: left;
+  width: 65%;
+  /* background-image: url(./asets/footer-horizontal2.jpg);
     background-position: center;
     background-size: cover; */
 }
 
 footer {
-
 }
 
 .footer-container {
-    display: flex;
-    align-items:center;
-    background: linear-gradient(170deg, rgba(255, 255, 255, 0) 49%, rgba(39, 99, 110, 0.95) 50%);
-   padding: 80px 0;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    170deg,
+    rgba(255, 255, 255, 0) 49%,
+    rgba(39, 99, 110, 0.95) 50%
+  );
+  padding: 80px 0;
+  justify-content: center;
 }
 
 /* ---------------------MEDIA------------------ */
