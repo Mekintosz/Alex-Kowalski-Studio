@@ -95,8 +95,8 @@ p {
 .project {
   background-color: var(--second-color);
   height: auto;
-  padding: 0.8rem;
-  margin: 1rem 0;
+  padding: 1.2rem;
+  margin: 2.2rem 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0.2rem;
 }
@@ -170,8 +170,12 @@ p {
 
   .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 48%));
-    justify-content: space-between;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 48%));
+    gap: 1.6rem;
+  }
+
+  .project {
+    margin: 0;
   }
 
   .footer-card {
@@ -208,7 +212,14 @@ p {
 @media (min-width: 1100px) {
 
   .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 32%));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 31%));
+    gap: 2.6rem;
+    justify-content: space-between;
+    
+  }
+
+  .main-container {
+    padding: 3rem 0;
   }
 
   footer picture {
