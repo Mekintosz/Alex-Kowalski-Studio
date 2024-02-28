@@ -20,9 +20,8 @@ body {
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   padding: 1rem 0;
-  text-align: center;
 }
 
 h3 {
@@ -33,15 +32,13 @@ p {
   padding: 0.6rem 0;
 }
 
-/* --------------------HEADER---------------------- */
-
 .bgshape {
   background: linear-gradient(
     170deg,
     rgba(39, 99, 110, 0.95) 49%,
     rgba(255, 255, 255, 0) 50%
   );
-  width: 100vw;
+  width: 100%;
 }
 
 .header-photo {
@@ -51,6 +48,7 @@ p {
 
 .header-picture {
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header.card {
@@ -69,13 +67,11 @@ p {
   left: 1rem;
 }
 
-/* --------------ikons----------------- */
-
 .header-icons,
 .footer-icons {
   display: flex;
+  padding-top: 2.5rem;
   justify-content: center;
-  padding-top: 1.5rem;
   gap: 1rem;
 }
 
@@ -85,11 +81,10 @@ p {
 }
 
 .footer-icons {
-  justify-content: center;
   padding-bottom: 1.5rem;
+  justify-content: start;
 }
 
-/* --------------------GALlERY--------------------- */
 .main-container {
   width: 90%;
   max-width: 1400px;
@@ -97,17 +92,13 @@ p {
   padding-bottom: 3rem;
 }
 
-/* .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 35%));
-    gap: 50px;
-} */
-
 .project {
   background-color: var(--second-color);
   height: auto;
   padding: 0.8rem;
   margin: 1rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.2rem;
 }
 
 .galery-image {
@@ -133,12 +124,10 @@ p {
   flex: 1 1 auto;
 }
 
-/* ----------------------------------FOOTER-------------------------------------- */
-
 .footer-card {
   width: 100%;
   margin: 0 auto;
-  padding: 2.3rem 0;
+  padding: 2.3rem 0 0;
 }
 
 .footer-content {
@@ -150,10 +139,8 @@ p {
   background-color: var(--first-color);
 }
 
-/* ---------------------MEDIA------------------ */
-
 @media (min-width: 550px) {
-  /* --------------------HEADER---------------------- */
+  
   .header-photo {
     max-width: 45%;
     float: right;
@@ -164,6 +151,8 @@ p {
     margin: 20% 10% 0 0;
     background-color: var(--main-color);
     padding: 1.4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.2rem;
   }
 
   .header-photo h1 {
@@ -173,15 +162,11 @@ p {
     left: -115%;
   }
 
-  /* --------------------GALlERY--------------------- */
-
   .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 48%));
     justify-content: space-between;
   }
-
-  /* ----------------------------------FOOTER-------------------------------------- */
 
   .footer-card {
     display: flex;
@@ -192,8 +177,8 @@ p {
 
   .footer-photo {
     display: flex;
-    margin: auto 0;
     width: 100%;
+    justify-content: end;
   }
 
   .footer-card img {
@@ -202,13 +187,13 @@ p {
 }
 
 @media (min-width: 1100px) {
+
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(200px, 32%));
   }
 }
 
 @media (min-width: 1550px) {
-  /* --------------------HEADER---------------------- */
 
   .header-photo h1 {
     font-size: 77px;
