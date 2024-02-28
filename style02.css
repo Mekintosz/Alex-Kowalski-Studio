@@ -70,7 +70,8 @@ p {
 .header-icons,
 .footer-icons {
   display: flex;
-  padding-top: 2.5rem;
+  padding-top: 2.8rem;
+  padding-bottom: 1rem;
   justify-content: center;
   gap: 1rem;
 }
@@ -81,8 +82,7 @@ p {
 }
 
 .footer-icons {
-  padding-bottom: 1.5rem;
-  justify-content: start;
+  padding: 2.8rem;
 }
 
 .main-container {
@@ -137,12 +137,18 @@ p {
 
 .footer-container {
   background-color: var(--first-color);
+  display: flex;
+}
+
+.footer-picture {
+  max-width: 100%;
+  display: block;
 }
 
 @media (min-width: 550px) {
   
   .header-photo {
-    max-width: 45%;
+    max-width: 55%;
     float: right;
     padding-left: 0.6rem;
   }
@@ -158,8 +164,8 @@ p {
   .header-photo h1 {
     font-size: 5vw;
     position: absolute;
-    bottom: 62%;
-    left: -115%;
+    bottom: 68%;
+    left: -78%;
   }
 
   .gallery {
@@ -173,6 +179,8 @@ p {
     margin: auto;
     width: 90%;
     max-width: 1400px;
+    gap: 10%;
+    padding: 3rem 0;
   }
 
   .footer-photo {
@@ -181,8 +189,19 @@ p {
     justify-content: end;
   }
 
-  .footer-card img {
-    max-width: 100%;
+  .footer-content h2 {
+    padding: 0 0 2rem 0;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-icons {
+    justify-content: flex-start;
+    margin-top: auto;
+    padding: 0;
   }
 }
 
@@ -190,6 +209,22 @@ p {
 
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(200px, 32%));
+  }
+
+  footer picture {
+    max-width: 60%;
+  }
+
+  .footer-card {
+    padding: 4rem 0;
+  }
+
+  .main-container {
+    padding-bottom: 4rem;
+  }
+
+  .footer-icons {
+    margin-top: 6rem;
   }
 }
 
