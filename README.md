@@ -4,6 +4,11 @@ Single-page portfolio site for an earthenware and clay studio. Built as a respon
 
 Live demo: https://mekintosz.github.io/Alex-Kowalski-Studio/
 
+## To do
+
+- Add a lightweight build setup (Vite) to the existing vanilla project
+- Create gh-pages branch (deploy from dist/ folder)
+
 ## Tech Stack
 
 - HTML5
